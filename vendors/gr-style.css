@@ -1,0 +1,38 @@
+.title-description {
+    margin: 0 0 25px;
+    font-size: 14px;
+}
+.gr-window {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 30px 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+}
+.gr-window__title {
+    font-size: 14px;
+    font-weight: 400;
+}
+.gr-filter__tags-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 8px;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #c3c4c7;
+}
+.gr-filter__fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.gr-filter__fields label {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+}
